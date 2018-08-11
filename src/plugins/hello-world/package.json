@@ -1,0 +1,13 @@
+{
+    "name": "hello-world-plugin",
+    "plugin": {
+      "consumes": [
+        "requestResponseUtils"
+      ],
+      "provides": [
+        "helloWorldRouter"
+      ]
+    },
+    "main": "index.js"
+  }
+  

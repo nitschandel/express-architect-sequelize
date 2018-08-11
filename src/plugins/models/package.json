@@ -1,0 +1,11 @@
+{
+  "name": "nitesh-models-plugin",
+  "plugin": {
+    "consumes": [
+
+    ],
+    "provides": [
+    ]
+  },
+  "main": "index.js"
+}

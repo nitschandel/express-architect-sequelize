@@ -1,0 +1,17 @@
+{
+  "name": "express-middleware-plugin",
+  "plugin": {
+    "consumes": [
+    ],
+    "provides": [
+      "commonErrorsHandlerMiddleware",
+      "databaseErrorHandlerMiddleware",
+      "expressSchemaValidatorMiddleware",
+      "fallbackErrorMiddleware",
+      "jsonSchemaValidationErrorHandlerMiddleware",
+      "requestErrorHandlerMiddleware",
+      "requestResponseUtils"
+    ]
+  },
+  "main": "index.js"
+}

@@ -1,0 +1,11 @@
+var path = require('path')
+var config = require('./config');
+var environment = 'development';
+
+console.log('here');
+
+module.exports = {
+  'config': path.resolve('./config/sequelize-config.js'),
+  'models-path': path.resolve('src/plugins/models/src/'),
+  'migrations-path': path.resolve('src/plugins/models/', 'migrations')
+};
